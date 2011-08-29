@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p public/javascripts
+cp -R client/lib client/gen public/javascripts/
+cp client/*.js public/javascripts
+coffee --compile --watch --bare --output public/javascripts client/*.coffee 

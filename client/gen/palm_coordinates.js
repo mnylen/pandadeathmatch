@@ -1,4 +1,5 @@
-var palmCoordinates = [ [ 427, 187, 0 ],
+exports.coords = [
+  [ 427, 187, 0 ],
   [ 125, 249, 0 ],
   [ 186, 137, 0 ],
   [ 512, 58, 0 ],
@@ -137,5 +138,5 @@ var palmCoordinates = [ [ 427, 187, 0 ],
   [ 688, 56, 0 ],
   [ 601, 280, 0 ],
   [ 381, 286, 0 ],
-  [ 382, 301, 0 ] ];
-exports.coords = palmCoordinates;
+  [ 382, 301, 0 ]
+];

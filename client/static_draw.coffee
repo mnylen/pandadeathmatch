@@ -4,6 +4,8 @@ palmCoordinates = require('./gen/palm_coordinates').coords
 sandCoordinates = require('./gen/sand_coordinates').coords
 rockCoordinates = require('./gen/rock_coordinates').coords
 
+console.log rockCoordinates
+
 drawImagesToSurface = (img, coordinates, surface, rect) ->
   surface = surface || new gamejs.Surface(params.gameWidth, params.gameHeight)
   size    = img.getSize();

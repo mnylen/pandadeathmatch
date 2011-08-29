@@ -1,4 +1,5 @@
-var rockCoordinates = [ [ 387, 388, 0 ],
+exports.coords = [
+  [ 387, 388, 0 ],
   [ 633, 152, 0 ],
   [ 638, 42, 0 ],
   [ 591, 70, 0 ],
@@ -37,5 +38,5 @@ var rockCoordinates = [ [ 387, 388, 0 ],
   [ 103, 117, 0 ],
   [ 430, 418, 0 ],
   [ 315, 231, 0 ],
-  [ 42, 421, 0 ] ];
-exports.coords = rockCoordinates;
+  [ 42, 421, 0 ]
+];

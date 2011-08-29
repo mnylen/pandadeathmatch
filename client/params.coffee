@@ -24,7 +24,7 @@ params =
     PANDA:             6
     PROJECTILE:        12
 
-if typeof window == undefined
+if typeof window == 'undefined'
   module.exports = params
 else
   window.params = params
