@@ -59,7 +59,4 @@ var geometry = {
   
 };
 
-// Epic hack
-if (typeof window === 'undefined') {
-  module.exports = geometry;
-}
+module.exports = geometry;
