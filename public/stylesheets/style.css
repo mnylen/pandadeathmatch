@@ -3,7 +3,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: 'Delius Unicase', sans-serif;
-  background:#7fb548 url('/images/body_bg.png');
+  background:#62b543 url('/images/body_bg.png') repeat-x top left;
 }
 
 #login-splash {
